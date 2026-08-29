@@ -1,0 +1,31 @@
+# Raw recordings and media should never be committed by default.
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+
+# Generated frames and local working artifacts.
+work/
+frames/
+keyframes/
+contact_sheet.jpg
+metadata.json
+*.tmp
+
+# Local drafts and exports may contain sensitive information.
+*.docx
+*.pdf
+*.xml
+
+# Python cache and virtual environments.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor and operating-system files.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

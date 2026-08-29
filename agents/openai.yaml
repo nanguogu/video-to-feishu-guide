@@ -1,0 +1,4 @@
+interface:
+  display_name: "录屏转飞书指南"
+  short_description: "将软件操作录屏整理为脱敏、标注清晰且便于阅读的飞书图文指南"
+  default_prompt: "Use $video-to-feishu-guide to turn my software operation recording into a concise illustrated Feishu guide."
