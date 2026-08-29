@@ -6,6 +6,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![Output](https://img.shields.io/badge/Output-Feishu%20Doc-3370FF)
 ![Privacy](https://img.shields.io/badge/Privacy-Redact%20Before%20Upload-0F766E)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 `video-to-feishu-guide` 是一个面向 Codex 的可复用 Skill。它把录屏当作“操作证据”，而不是逐帧转写的脚本：先找出真正影响任务完成的关键画面，再按用户目标合并步骤、遮挡敏感信息、标注点击位置，最终发布并校验一份低门槛的飞书在线文档。
 
@@ -195,6 +196,7 @@ python scripts/validate_guide.py guide.xml \
 video-to-feishu-guide/
 ├── SKILL.md                         # Skill 入口、工作流与关键边界
 ├── README.md                        # 面向使用者与贡献者的项目说明
+├── LICENSE                          # MIT 开源许可证
 ├── requirements.txt                 # 图像处理依赖
 ├── agents/
 │   └── openai.yaml                  # UI 名称、简介和默认提示词
@@ -304,7 +306,7 @@ python scripts/validate_guide.py --help
 
 ## 许可证
 
-本项目目前尚未声明开源许可证。在许可证补充之前，请不要将“代码公开可见”理解为已获得复制、修改或再分发授权。仓库所有者可根据计划选择 MIT、Apache-2.0 或其他合适的许可证。
+本项目基于 [MIT License](./LICENSE) 开源。你可以自由使用、复制、修改和分发，但需要保留原始版权与许可证声明。
 
 ---
 
